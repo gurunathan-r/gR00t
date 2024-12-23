@@ -11,15 +11,32 @@
             "id": "ac8e6562ae58034b",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.7.7"
+                "file": "sample/sample.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Release Notes 1.7.7"
+              "title": "sample"
+            }
+          },
+          {
+            "id": "e9c32dfa479e3ef4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "styhsgys.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "styhsgys"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -91,6 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "styhsgys.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for styhsgys"
             }
           },
           {
@@ -109,11 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "styhsgys.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from styhsgys"
             }
           },
           {
@@ -134,9 +153,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "styhsgys.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of styhsgys"
             }
           }
         ]
@@ -153,12 +174,14 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "yet-another-obsidian-synchronizer:YAOS": false
     }
   },
   "active": "8c1f14fde64d2907",
   "lastOpenFiles": [
     "sample/sample.md",
+    "styhsgys.md",
     "sample"
   ]
 }
