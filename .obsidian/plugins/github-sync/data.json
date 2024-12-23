@@ -2,5 +2,5 @@
   "remoteURL": "https://github.com/gurunathan-r/cyber-notes",
   "gitLocation": "",
   "syncinterval": 1,
-  "isSyncOnLoad": true
+  "isSyncOnLoad": false
 }
