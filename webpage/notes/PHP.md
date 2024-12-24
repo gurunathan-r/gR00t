@@ -78,3 +78,8 @@ for(init;condi;incre){   ....   }
 ```
 
 
+while
+```
+while(condition){ ...}
+```
+
