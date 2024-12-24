@@ -126,8 +126,11 @@ function name(){   }
 
 string functions
 
-strtolower()
+strtolower() - str
 strtoupper
 trim(var,s)
 str_pad(var,20,"0")
 str_replace(from , to)
+strcmp()
+strlen() 
+strpos()
