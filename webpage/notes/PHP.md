@@ -16,3 +16,6 @@ to comment we use // and /*
 
 
 variable - $name  and { $name}-echo
+
+escape char \$
+
