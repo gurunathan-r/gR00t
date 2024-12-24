@@ -62,6 +62,17 @@ switch
 ```
 switch(condition){
 	case "1":
-		
+		...
+	case "2":
+		...
+		...
+	default:
 }
+```
+
+
+for loops
+
+```
+for
 ```
