@@ -123,4 +123,7 @@ function name(){   }
 ```
 
 
-stri
+
+string functions
+
+
