@@ -110,3 +110,4 @@ array_reverse($var)
 
 
 isset()  - if variable is declared
+empty()   if variable is not declared
