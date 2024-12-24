@@ -26,4 +26,9 @@ operator precedence  --  ( )    **  * / %    + -
 
 $_GET  and $_POST
 $_GET -       $_GET["username"]
-			data 
+			data appended to the url
+			 not secure
+			 char limit
+			 bookmark is possible
+			 get requests can be cached
+$_POST 
