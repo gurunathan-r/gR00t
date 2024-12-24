@@ -135,4 +135,4 @@ strcmp()  - compares the variables
 strlen() - finds the length of the string
 strpos()  find the first occurance of a value
 substr()  - find the sub string of the given string
-explode()  - breaks the string in the specified places  -eg explode(" " , )
+explode()  - breaks the string in the specified places  -eg explode(" " , $username);
