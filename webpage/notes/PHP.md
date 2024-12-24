@@ -41,6 +41,11 @@ $_POST -      $_POST
 
 
 
+
+Logical operators
+
+&&  -
+
 Jump statements
 
 if
