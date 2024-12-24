@@ -127,7 +127,7 @@ function name(){   }
 string functions
 
 strtolower() - string to lower
-strtoupper
+strtoupper  - string to upper
 trim(var,s)
 str_pad(var,20,"0")
 str_replace(from , to)
