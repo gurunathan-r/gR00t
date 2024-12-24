@@ -20,3 +20,4 @@ variable - $name  and { $name}-echo
 escape char \$
 echo true - output 1 ,false - output nothing
 
+operator precedence  --  ( )    **  * / %    
