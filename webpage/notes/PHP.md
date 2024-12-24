@@ -107,3 +107,6 @@ foreach($variable as $key => $value){
  array_pop($var) -- del last elemnt
  array_shify($var) -- moves element one step front
 array_reverse($var)
+
+
+isset()  - if variable is declared
