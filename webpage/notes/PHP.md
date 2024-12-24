@@ -89,6 +89,7 @@ while(condition){ ...}
 Arrays
 ```
 $variable = array("1","2","3");
+$variable = array("1"=> 1,"2"=> 2,"3"=> 3);
 ```
 
 we cant directly print the whole array; and we can use [ ] to access elements foreach to access all elements
@@ -96,6 +97,8 @@ we cant directly print the whole array; and we can use [ ] to access elements fo
 foreach($variable as $var){
 ..
 }
+
+foreach()
 ```
 
  array_push($var, value)  --   to add element to end of list
