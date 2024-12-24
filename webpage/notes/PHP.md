@@ -48,6 +48,8 @@ Logical operators
 ||                   True if atleast one is true
 !                     True if false
 
+
+
 Jump statements
 
 if
@@ -56,3 +58,10 @@ if(condition){ .. }elseif{.....}else{.....}
 ```
 
 
+switch
+```
+switch(condition){
+	case "1":
+		
+}
+```
