@@ -128,4 +128,6 @@ string functions
 
 strtolower()
 strtoupper
-trim(var,)
+trim(var,s)
+str_pad(var,20,"0")
+str_replace(from , to)
