@@ -11,7 +11,7 @@ echo "Nova !"
 to comment we use // and /*
 ```
 // sample comment    
-/* multiline
+/* multiline */
 ```
 
 
