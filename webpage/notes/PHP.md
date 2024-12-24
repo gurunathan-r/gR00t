@@ -43,3 +43,7 @@ $_POST -      $_POST
 
 Jump statements
 
+if
+```
+if(condition){ .. }
+```
