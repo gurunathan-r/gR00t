@@ -128,9 +128,9 @@ string functions
 
 strtolower() - string to lower
 strtoupper  - string to upper
-trim(var,s)
-str_pad(var,20,"0")
-str_replace(from , to)
-strcmp()
-strlen() 
-strpos()
+trim(var,s)  - trim the whole variable
+str_pad(var,20,"0")  - fill with the values
+str_replace(from , to)  - relplaces the values
+strcmp()  - compares the variables
+strlen() - finds the length of the string
+strpos() 
