@@ -133,4 +133,5 @@ str_pad(var,20,"0")  - fill with the values
 str_replace(from , to)  - relplaces the values
 strcmp()  - compares the variables
 strlen() - finds the length of the string
-strpos() 
+strpos()  find the first occurance of a value
+substr()  - find the sub string of the given string
