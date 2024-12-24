@@ -45,6 +45,7 @@ Jump statements
 
 if
 ```
-if(condition){ .. }elseif{.....}else
+if(condition){ .. }elseif{.....}else{.....}
 ```
+
 
