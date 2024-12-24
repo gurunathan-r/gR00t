@@ -44,7 +44,9 @@ $_POST -      $_POST
 
 Logical operators
 
-&&  -
+&&              True if both are true
+||                   True if atleast one is true
+!                     True if false
 
 Jump statements
 
