@@ -122,3 +122,5 @@ functions
 function name(){   }
 ```
 
+
+stri
