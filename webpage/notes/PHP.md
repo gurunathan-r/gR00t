@@ -31,4 +31,11 @@ $_GET -       $_GET["username"]
 			 char limit
 			 bookmark is possible
 			 get requests can be cached
-$_POST 
+$_POST -      $_POST
+			 Data is packed in http request
+			 more secure
+			 no data limit
+			 cannot bookmark
+			 get requests are cahed
+			 better for submitting creds
+
