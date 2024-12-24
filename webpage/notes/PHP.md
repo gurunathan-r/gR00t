@@ -98,4 +98,7 @@ foreach($variable as $var){
 }
 ```
 
+ array_push($var, value)  --   to add element to end of list
+ array_pop($var)
+ 
 
