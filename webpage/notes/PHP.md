@@ -74,5 +74,7 @@ switch(condition){
 for loops
 
 ```
-for
+for(init;condi;incre){   ....   }
 ```
+
+
