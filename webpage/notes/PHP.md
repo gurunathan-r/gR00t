@@ -126,7 +126,7 @@ function name(){   }
 
 string functions
 
-strtolower() - str
+strtolower() - string to lower
 strtoupper
 trim(var,s)
 str_pad(var,20,"0")
