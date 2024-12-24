@@ -126,4 +126,6 @@ function name(){   }
 
 string functions
 
-
+strtolower()
+strtoupper
+trim(var,)
