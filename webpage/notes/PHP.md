@@ -22,3 +22,6 @@ echo true - output 1 ,false - output nothing
 
 operator precedence  --  ( )    **  * / %    + -
 
+
+
+$_GET  and $_POST
