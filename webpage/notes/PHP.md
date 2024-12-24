@@ -25,3 +25,5 @@ operator precedence  --  ( )    **  * / %    + -
 
 
 $_GET  and $_POST
+$_GET -       $_GET["username"]
+			data 
