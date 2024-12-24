@@ -118,4 +118,7 @@ empty()   if variable is not declared
 
 functions
 
+```
+function name(){   }
+```
 
