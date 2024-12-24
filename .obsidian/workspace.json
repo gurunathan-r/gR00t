@@ -11,10 +11,14 @@
             "id": "e418217af5d3c8c8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "webpage/notes/PHP.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "PHP"
             }
           }
         ]
@@ -160,8 +164,9 @@
       "cicada-sync:CI-SYNC": false
     }
   },
-  "active": "8c1f14fde64d2907",
+  "active": "e418217af5d3c8c8",
   "lastOpenFiles": [
+    "webpage/notes/PHP.md",
     "webpage/notes",
     "webpage",
     "svdfvsdfv.md",
