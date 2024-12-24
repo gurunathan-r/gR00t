@@ -98,7 +98,9 @@ foreach($variable as $var){
 ..
 }
 
-foreach($variable as )
+foreach($variable as $key => $value){
+
+}
 ```
 
  array_push($var, value)  --   to add element to end of list
