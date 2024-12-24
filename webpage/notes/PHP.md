@@ -15,4 +15,4 @@ to comment we use // and /*
 ```
 
 
-
+variable - $name
