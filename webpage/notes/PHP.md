@@ -83,3 +83,10 @@ while
 while(condition){ ...}
 ```
 
+
+
+
+Arrays
+```
+$variable = array("1","2","3");
+```
