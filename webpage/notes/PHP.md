@@ -90,3 +90,5 @@ Arrays
 ```
 $variable = array("1","2","3");
 ```
+we cant directly print the whole array; and we can use [ ] to access elements
+
