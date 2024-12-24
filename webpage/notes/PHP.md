@@ -99,6 +99,6 @@ foreach($variable as $var){
 ```
 
  array_push($var, value)  --   to add element to end of list
- array_pop($var)
- 
-
+ array_pop($var) -- del last elemnt
+ array_shify($var) -- moves element one step front
+array_reverse($var)
