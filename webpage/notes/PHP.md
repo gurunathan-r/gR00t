@@ -160,4 +160,4 @@ $_SERVER - contains header,paths, shows nearly everything we need to know of the
 ```
 
 
-hash( ) - hash the password
+password_hash(var, algo ) - hash the password
