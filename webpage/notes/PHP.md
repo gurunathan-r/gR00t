@@ -138,6 +138,9 @@ substr()  - find the sub string of the given string
 explode()  - breaks the string in the specified places  -eg explode(" " , $username);
 implode () explode opposite
 
+
+sanitation 
+
 filter_input(INPUT_POST," name " , FILTER_SANITIZE_SPECIAL_CHARS)
 FILTER_SANITIZE_NUMBER_INT - only numbers
 FILTER_SANITIZE_EMAIL  - only email
