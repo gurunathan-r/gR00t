@@ -146,5 +146,4 @@ FILTER_SANITIZE_NUMBER_INT - only numbers
 FILTER_SANITIZE_EMAIL  - only email
 
 
-include( )
-
+include( )  -  includes the file inside the html
