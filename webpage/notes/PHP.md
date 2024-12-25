@@ -156,5 +156,6 @@ sessions are started before displaying any html is displayed
 $_SERVER - contains header,paths, shows nearly everything we need to know of the server
 ```
 <?php $_SERVER["PHP_SELF"]?>    // used to automaticaly select the file
-htmlspecialchars(<?php $_SERVER["PHP_SELF"]?>)
+<?php htmlspecialchars($_SERVER["PHP_SELF"]) ?>
 ```
+
