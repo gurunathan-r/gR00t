@@ -144,3 +144,7 @@ sanitation
 filter_input(INPUT_POST," name " , FILTER_SANITIZE_SPECIAL_CHARS)
 FILTER_SANITIZE_NUMBER_INT - only numbers
 FILTER_SANITIZE_EMAIL  - only email
+
+
+include( )
+
