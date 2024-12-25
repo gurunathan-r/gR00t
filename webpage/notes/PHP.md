@@ -147,3 +147,7 @@ FILTER_SANITIZE_EMAIL  - only email
 
 
 include( )  -  includes the file inside the html
+
+
+cookie  - info about a user stored in the user browser
+setcookie("fav_food",)
