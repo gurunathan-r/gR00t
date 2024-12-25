@@ -138,4 +138,4 @@ substr()  - find the sub string of the given string
 explode()  - breaks the string in the specified places  -eg explode(" " , $username);
 implode () explode opposite
 
-filter_input(INPUT_POST)
+filter_input(INPUT_POST," name " , FILTER_SANITIZE_SPECIAL_CHARS)
