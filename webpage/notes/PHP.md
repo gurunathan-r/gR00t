@@ -159,3 +159,5 @@ $_SERVER - contains header,paths, shows nearly everything we need to know of the
 <?php htmlspecialchars($_SERVER["PHP_SELF"]) ?>
 ```
 
+
+hash( ) - hash the password
