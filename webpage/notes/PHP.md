@@ -139,4 +139,5 @@ explode()  - breaks the string in the specified places  -eg explode(" " , $usern
 implode () explode opposite
 
 filter_input(INPUT_POST," name " , FILTER_SANITIZE_SPECIAL_CHARS)
-FILTER_SANITIZE_
+FILTER_SANITIZE_NUMBER_INT - only numbers
+FILTER_SANITIZE_EMAIL  - only email
