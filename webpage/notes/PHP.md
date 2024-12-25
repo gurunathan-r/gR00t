@@ -154,3 +154,6 @@ setcookie("fav_food"     - key    ,"pizza"    - value  ,time()   + 86000  - time
 sessions are started before displaying any html is displayed
 
 $_SERVER - contains header,paths, shows nearly everything we need to know of the server
+```
+<?php $_SERVER["PHP_SELF"]?>    // used to upd
+```
