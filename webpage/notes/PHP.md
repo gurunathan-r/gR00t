@@ -137,3 +137,5 @@ strpos()  find the first occurance of a value
 substr()  - find the sub string of the given string
 explode()  - breaks the string in the specified places  -eg explode(" " , $username);
 implode () explode opposite
+
+filter_input(INPUT_POST)
