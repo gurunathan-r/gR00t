@@ -151,4 +151,4 @@ include( )  -  includes the file inside the html
 
 cookie  - info about a user stored in the user browser
 setcookie("fav_food"     - key    ,"pizza"    - value  ,time()   + 86000  - time to expire , "/");
-sessions are started before displayin
+sessions are started before displaying any html is displayed
