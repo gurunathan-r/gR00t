@@ -33,5 +33,9 @@ BOOCCHI'S  SITE
 -                                  ```X3J5b18heWFtYWRhXw==              _ryo_!yamada_```
 - i repeated the same for others and got the remaining part of the flag
 - now its time to join the flag , i joined the flag in the order i got them and tried the flag 
-- ```
+
+- ```1. Shaastra{bocchiryo_!yamadakita-chan__seika!!}```
+- but it doesnt work after rearranging it i got the correct flag
+
+```
 ```
