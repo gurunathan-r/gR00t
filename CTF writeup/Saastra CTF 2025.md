@@ -29,4 +29,5 @@ BOOCCHI'S  SITE
 <p class = "hidden"> X3J5b18heWFtYWRhXw==, follow seika</p>
 ```
 
-- here too i can see that there is a base64 e
+- here too i can see that there is a base64 encrypt value so i used base64 to decrypt and got a part of flag 
+- 
