@@ -18,4 +18,4 @@ BOOCCHI'S  SITE
 ```
 
 - In this code there is a notify_true value which looks like a base64 encoded value 
-- so i headed to www.co
+- so i headed to https://cyberchef.org  to in
