@@ -44,3 +44,9 @@ Shaastra{_bocchi__kita-chan__ryo_!yamada__seika!!}
 ```
 
 
+
+
+ I DON'T KNOW
+
+
+![[Pasted image 20250108225934.png]]
