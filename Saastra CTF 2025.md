@@ -17,4 +17,5 @@ BOOCCHI'S  SITE
 <div class="about" notify_true="VTJoaFlYTjBjbUY3WDJKdlkyTm9hVjg9,follow kita">
 ```
 
-- In this code there is a 
+- In this code there is a notify_true value which looks like a base64 encoded value 
+- so i headed to www.co
