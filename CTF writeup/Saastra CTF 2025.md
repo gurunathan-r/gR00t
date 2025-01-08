@@ -24,3 +24,9 @@ BOOCCHI'S  SITE
 ![[Pasted image 20250108224744.png]]
 
 - No i tried it for each and every tabs in the website with some anime character names and searched for some info and i get to see a hidden class
+
+```
+<p class = "hidden"> X3J5b18heWFtYWRhXw==, follow seika</p>
+```
+
+- here too i can see that there is a base64 e
