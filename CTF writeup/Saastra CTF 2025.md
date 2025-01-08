@@ -4,8 +4,7 @@ Web exploitation:--
 BOOCCHI'S  SITE
 
 
-![[Pasted image 20250108223407.png]]
-
+![[Pasted image 20250108225701.png]]
 
 
 - In this challenge we were given a site with a description that the site has some hidden info in it so i visited the site and found a static site written in html and css and there were only some tabs in the website based on some anime characters
