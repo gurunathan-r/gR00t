@@ -9,7 +9,8 @@ BOOCCHI'S  SITE
 
 
 - In this challenge we were given a site with a description that the site has some hidden info in it so i visited the site and found a static site written in html and css and there were only some tabs in the website based on some anime characters
-- As it was mentioned in the description i searched for some hidden content in the website sourc
+- As it was mentioned in the description i searched for some hidden content in the website source code to see if i can find something in it 
+- And i found something odd
 
 
 
