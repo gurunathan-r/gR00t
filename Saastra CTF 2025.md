@@ -17,4 +17,4 @@ BOOCCHI'S  SITE
 <div class="about" notify_true="VTJoaFlYTjBjbUY3WDJKdlkyTm9hVjg9,follow kita">
 ```
 
-- In this code th9ere is a 
+- In this code there is a 
