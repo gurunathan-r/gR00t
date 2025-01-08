@@ -30,4 +30,5 @@ BOOCCHI'S  SITE
 ```
 
 - here too i can see that there is a base64 encrypt value so i used base64 to decrypt and got a part of flag 
-- 
+-                                  ```X3J5b18heWFtYWRhXw==              _ryo_!yamada_```
+- i repeated the same for others and got the remaining part of the
