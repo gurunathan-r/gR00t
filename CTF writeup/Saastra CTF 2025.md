@@ -38,4 +38,7 @@ BOOCCHI'S  SITE
 - but it doesnt work after rearranging it i got the correct flag
 
 ```
+Shaastra{_bocchi__kita-chan__ryo_!yamada__seika!!}
 ```
+
+
