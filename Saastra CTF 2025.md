@@ -8,8 +8,7 @@ BOOCCHI'S  SITE
 
 
 
-- In this challenge we were given a site with a description that the site has some hidden info in it 
-so i visited the site and found a site written in html and css
+- In this challenge we were given a site with a description that the site has some hidden info in it so i visited the site and found a site written in html and css and there were only some tabs in the website based on 9some anime characters 
 
 
 
