@@ -23,3 +23,4 @@ BOOCCHI'S  SITE
 
 ![[Pasted image 20250108224744.png]]
 
+- No i tried it for each and every tabs in the website with some anime character names and searched for some info and i get to see a hidden class
