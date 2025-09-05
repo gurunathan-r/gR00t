@@ -11,10 +11,14 @@
             "id": "e65198eeae975537",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "3-rd Year/Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
             }
           }
         ]
@@ -164,6 +168,8 @@
   },
   "active": "e65198eeae975537",
   "lastOpenFiles": [
+    "3-rd Year/Untitled.md",
+    "3-rd Year",
     "Android/Android Application Framework.md",
     "create a link.md",
     "hextree/ANDROID/Reverse Engineering Android Apps.md",
