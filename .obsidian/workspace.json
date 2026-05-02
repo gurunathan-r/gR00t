@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3-rd Year/Wireless Networks/Lesson - 2.md",
+                "file": "hextree/ANDROID/PocketHexMap - Zip Slip MITM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lesson - 2"
+              "title": "PocketHexMap - Zip Slip MITM"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d3847456ebd36698",
@@ -162,14 +163,14 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "github-sync:Sync with Remote": false,
-      "cicada-sync:CI-SYNC": false
+      "cicada-sync:CI-SYNC": false,
+      "github-sync:Sync with Remote": false
     }
   },
   "active": "e65198eeae975537",
   "lastOpenFiles": [
-    "3-rd Year/Untitled.md",
     "3-rd Year/Wireless Networks/Lesson - 2.md",
+    "3-rd Year/Untitled.md",
     "3-rd Year/Wireless Networks",
     "3-rd Year",
     "Android/Android Application Framework.md",
