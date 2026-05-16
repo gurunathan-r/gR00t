@@ -287,3 +287,48 @@ The fix is one `getCanonicalFile()` call + a prefix check — the same pattern r
 - [Snyk — Zip Slip vulnerability](https://security.snyk.io/research/zip-slip-vulnerability)
 - [OWASP — Path Traversal](https://owasp.org/www-community/attacks/Path_Traversal)
 - CWE-22: Improper Limitation of a Pathname to a Restricted Directory
+
+
+We are going to create a powerful MITM setup that allows us to respond to complex API requests using our own server implemented in Python.
+
+In order to do that we are using the [HTTP Mock](https://portswigger.net/bappstore/42680f96fc214513bc5211b3f25fd98b) Burp extension with the "Redirect to URL" feature.
+
+You can setup your own python server with:
+
+```
+python -m venv .venv
+. .venv/bin/activate
+pip install flask
+python server.py
+```
+
+###  server.py
+
+```
+from flask import Flask, jsonify, send_file
+import zipfile, io
+
+app = Flask(__name__)
+
+@app.route('/map.json')
+def serve_map():
+    # This is where you would define the JSON response or fetch it from a file or database
+    response = {
+        "maps-0.13.0_0-path": "maps",
+        "maps-0.13.0_0":
+        [
+            { 
+                "name": "hextree-android_continent", 
+                "size": "812K", "time": "2024-02" },
+        ]
+    }
+    return jsonify(response)
+
+@app.route('/map.zip')
+def map_archive():
+    # TODO: create malicious ZIP file
+    return "mock zip"
+
+if __name__ == '__main__':
+    app.run(debug=True, port=1234)
+```
