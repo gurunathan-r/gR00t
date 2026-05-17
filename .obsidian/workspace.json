@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hextree/ANDROID/PocketHexMap - Zip Slip MITM.md",
+                "file": "GATE/Computer Networks/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PocketHexMap - Zip Slip MITM"
+              "title": "Untitled"
             }
           }
         ]
@@ -166,15 +166,17 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "8c1f14fde64d2907",
+  "active": "e65198eeae975537",
   "lastOpenFiles": [
+    "hextree/ANDROID/PocketHexMap - Zip Slip MITM.md",
+    "GATE/Computer Networks/Untitled.md",
+    "GATE/Computer Networks",
     "Untitled",
     "GATE",
     "KOTH/KOTH - 2.5.2026.md",
     "Welcome.md",
     "Untitled.md",
     "KOTH",
-    "hextree/ANDROID/PocketHexMap - Zip Slip MITM.md",
     "3-rd Year/Wireless Networks/Lesson - 2.md",
     "3-rd Year/Untitled.md",
     "3-rd Year/Wireless Networks",
@@ -195,8 +197,6 @@
     "CTF writeup/Pasted image 20250108224744.png",
     "Pasted image 20250108223309.png",
     "SQL injection",
-    "webpage/notes",
-    "webpage",
     "svdfvsdfv.md",
     "samplk.md",
     "evrdefvsdfv.md",
