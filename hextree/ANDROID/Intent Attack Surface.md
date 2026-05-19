@@ -160,6 +160,7 @@ adb shell 'am start -n io.hextree.attacksurface/io.hextree.attacksurface.activit
 
 # FLAG 7 
 
+```
 package com.example.hextree;  
   
 import android.content.ComponentName;  
@@ -211,3 +212,21 @@ public class MainActivity extends AppCompatActivity {
   
     }  
 }
+```
+
+```
+adb shell am start \
+
+  -n io.hextree.attacksurface/io.hextree.attacksurface.activities.Flag7Activity \
+
+  -a OPEN
+  
+adb shell am start \
+
+  --activity-single-top \
+
+  -n io.hextree.attacksurface/io.hextree.attacksurface.activities.Flag7Activity \        
+
+  -a REOPEN
+```
+
