@@ -28,5 +28,10 @@ An app can always start any of its own activities, but in order to allow other a
 as the first activity is exported in the manifest we can just call it using
 
 ```
-adb shell am start -
+adb shell am start -n io.hextree.attacksurface/io.hextree.attacksurface.activities.Flag1Activity
 ```
+
+
+# Flag 2
+
+the second activity is also exported but needs an extra action to be passed which can 
