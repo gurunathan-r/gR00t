@@ -50,4 +50,10 @@ the second activity is also exported but needs an extra action to be passed whic
 }
 ```
 
-as here we can see that the oncreate returns nothing if action is null or not equal to 
+as here we can see that the oncreate returns nothing if action is null or not equal to io.hextree.action.GIVE_FLAG  so now modifying the intent we get 
+
+```
+adb shell am start -n io.hextree.attacksurface/io.hextree.attacksurface.activities.Flag2Activity -a io.hextree.action.GIVE_FLAG
+```
+
+-a to specify the action io.hextree.action.GIVE_FLAG
