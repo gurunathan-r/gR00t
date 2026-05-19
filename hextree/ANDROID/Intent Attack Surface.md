@@ -57,3 +57,7 @@ adb shell am start -n io.hextree.attacksurface/io.hextree.attacksurface.activiti
 ```
 
 -a to specify the action io.hextree.action.GIVE_FLAG
+
+
+# Parcel
+# Binder
