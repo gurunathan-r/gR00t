@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hextree/ANDROID/PocketHexMap - Zip Slip MITM.md",
+                "file": "hextree/ANDROID/Intent Attack Surface.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PocketHexMap - Zip Slip MITM"
+              "title": "Intent Attack Surface"
             }
           }
         ]
@@ -168,10 +168,11 @@
   },
   "active": "e65198eeae975537",
   "lastOpenFiles": [
+    "hextree/ANDROID/PocketHexMap - Zip Slip MITM.md",
+    "hextree/ANDROID/Intent Attack Surface.md",
     "hextree/ANDROID/Reverse Engineering Android Apps.md",
     "GATE/Computer Networks/Untitled.md",
     "CS_2026_Syllabus.pdf",
-    "hextree/ANDROID/PocketHexMap - Zip Slip MITM.md",
     "GATE/Computer Networks",
     "Untitled",
     "GATE",
