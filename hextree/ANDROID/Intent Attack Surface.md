@@ -34,4 +34,20 @@ adb shell am start -n io.hextree.attacksurface/io.hextree.attacksurface.activiti
 
 # Flag 2
 
-the second activity is also exported but needs an extra action to be passed which can 
+the second activity is also exported but needs an extra action to be passed which can be found using static analysis 
+
+```
+   protected void onCreate(Bundle bundle) {  
+        super.onCreate(bundle);  
+        this.f = new LogHelper(this);  
+        String action = getIntent().getAction();  
+        if (action == null || !action.equals("io.hextree.action.GIVE_FLAG")) {  
+            return;  
+        }  
+        this.f.addTag(action);  
+        success(this);  
+    }  
+}
+```
+
+as here we can see that the oncreate returns nothing if action is null or not equal to 
