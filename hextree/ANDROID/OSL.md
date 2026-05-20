@@ -186,6 +186,9 @@ curl -s "https://trade-glb.osl.com/v1/user/overview/userinfo" \
   -d '{}'
 ```
 
+![[Pasted image 20260521002819.png]]
+
+
 ```json
 {
     "code": "00000",
