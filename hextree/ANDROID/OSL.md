@@ -121,6 +121,9 @@ curl -s "https://trade-glb.osl.com/v1/mix/assets" \
   -d '{}'
 ```
 
+![[Pasted image 20260521002604.png]]
+
+
 Response (truncated — full response is 1,690 lines covering 55 assets):
 
 ```json
