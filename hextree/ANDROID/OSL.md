@@ -63,6 +63,8 @@ adb logcat -s flutter:I > osl_capture.txt
 
 ```
 
+![[Pasted image 20260521001854.png]]
+
 ### Step 2 — Open the OSL app
 
 Just open the app while already logged in. The home screen alone triggers multiple authenticated API calls. I didn't even need to navigate anywhere — the post-login startup flow fires requests to at least 6 endpoints immediately.
