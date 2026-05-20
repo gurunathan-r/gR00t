@@ -89,7 +89,7 @@ I flutter :  u-token: eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIzOTU4NmFiZC1m...Yo6M0zxrX8
 ### Step 4 — Decode the JWT (optional — shows the 90-day window)
 
 ```
-echo "eyJqdGkiOiIzOTU4NmFiZC1mNmRjLTQwNmEtOTIwOC0wYzRlZDc2OTg1MWIxMTYzMjAxNDg5Iiw..." | base64 -d | python3 -m json.tool
+echo "eyJqdGkiOiIzOTU4NmFiZC1mNmRjLTQwNmEtOTIwOC0wYzRlZDc2OTg1MWIxMTYzMjAxNDg5Iiw..." | base64 -D | python3 -m json.tool
 ```
 
 ```json
@@ -106,6 +106,7 @@ echo "eyJqdGkiOiIzOTU4NmFiZC1mNmRjLTQwNmEtOTIwOC0wYzRlZDc2OTg1MWIxMTYzMjAxNDg5Ii
 
 Issued 2026-05-20, expires 2026-08-18. That's 90 days.
 
+![[Pasted image 20260521002331.png]]
 
 
 ### Step 5 — Replay the token from a separate machine (macOS laptop, different IP/network)
