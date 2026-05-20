@@ -77,6 +77,9 @@ Stop the capture (Ctrl+C), then:
 grep "u-token:" osl_capture.txt | grep -v "null"
 ```
 
+![[Pasted image 20260521001941.png]]
+
+
 In my capture (360 lines from a single startup), the full JWT appeared 6 times:
 
 ```
