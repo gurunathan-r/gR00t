@@ -232,6 +232,8 @@ adb shell am start \
 
 # Flag6Activity
 
+they need android 10 not work from android 14
+
 ```
 package com.example.hextree;  
   
