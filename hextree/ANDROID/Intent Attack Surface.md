@@ -310,3 +310,74 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 
+# Flag8 
+
+
+```
+package com.example.hextree;  
+  
+import android.content.ComponentName;  
+import android.content.Intent;  
+import android.os.Bundle;  
+import android.widget.Button;  
+import android.widget.Toast;  
+  
+import androidx.annotation.Nullable;  
+import androidx.appcompat.app.AppCompatActivity;  
+  
+public class HextreeActivity extends AppCompatActivity {  
+  
+    private static final int REQUEST_CODE = 1337;  
+  
+    @Override  
+    protected void onCreate(Bundle savedInstanceState) {  
+        super.onCreate(savedInstanceState);  
+        setContentView(R.layout.activity_main);  
+  
+        Button btn = findViewById(R.id.btn_launch_activity);  
+  
+        btn.setOnClickListener(v -> {  
+  
+            Intent intent = new Intent();  
+  
+            intent.setComponent(  
+                    new ComponentName(  
+                            "io.hextree.attacksurface",  
+                            "io.hextree.attacksurface.activities.Flag8Activity"  
+                    )  
+            );  
+  
+            startActivityForResult(intent, REQUEST_CODE);  
+        });  
+    }  
+  
+    @Override  
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {  
+        super.onActivityResult(requestCode, resultCode, data);  
+  
+        if (requestCode == REQUEST_CODE) {  
+  
+            Toast.makeText(  
+                    this,  
+                    "Returned from Flag8Activity",  
+                    Toast.LENGTH_LONG  
+            ).show();  
+  
+            if (data != null) {  
+                Bundle extras = data.getExtras();  
+  
+                if (extras != null) {  
+                    Toast.makeText(  
+                            this,  
+                            extras.toString(),  
+                            Toast.LENGTH_LONG  
+                    ).show();  
+                }  
+            }  
+        }  
+    }  
+}
+
+```
+
+
