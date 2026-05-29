@@ -381,3 +381,15 @@ public class HextreeActivity extends AppCompatActivity {
 ```
 
 
+# Flag10
+
+```
+<intent-filter>  
+    <action android:name="io.hextree.attacksurface.ATTACK_ME" />  
+    <category android:name="android.intent.category.DEFAULT" />  
+</intent-filter>
+```
+
+
+# Flag 11
+
