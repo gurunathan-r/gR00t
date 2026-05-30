@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hextree/ANDROID/Intent Attack Surface.md",
+                "file": "BreachLabs/GHOST.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Intent Attack Surface"
+              "title": "GHOST"
             }
           }
         ]
@@ -166,9 +166,13 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "8c1f14fde64d2907",
+  "active": "e65198eeae975537",
   "lastOpenFiles": [
+    "Untitled 1.md",
+    "BreachLabs/GHOST.md",
+    "hextree/ANDROID/Intent Attack Surface.md",
     "Untitled",
+    "BreachLabs",
     "Pasted image 20260529135517.png",
     "Pasted image 20260529135440.png",
     "hextree/ANDROID/OSL.md",
@@ -177,7 +181,6 @@
     "Pasted image 20260521002331.png",
     "Pasted image 20260521001941.png",
     "Pasted image 20260521001854.png",
-    "hextree/ANDROID/Intent Attack Surface.md",
     "hextree/ANDROID/PocketHexMap - Zip Slip MITM.md",
     "hextree/ANDROID/Reverse Engineering Android Apps.md",
     "GATE/Computer Networks/Untitled.md",
@@ -202,7 +205,6 @@
     "CTF writeup/Pasted image 20250108223407.png",
     "Pasted image 20250108225934.png",
     "Pasted image 20250108225701.png",
-    "CTF writeup",
     "svdfvsdfv.md",
     "samplk.md",
     "evrdefvsdfv.md",
@@ -211,7 +213,6 @@
     "adfvadfv.md",
     "test.md",
     "styhsgys.md",
-    "gfsezrghsdfhtsd.md",
-    "sample/sample.md"
+    "gfsezrghsdfhtsd.md"
   ]
 }
