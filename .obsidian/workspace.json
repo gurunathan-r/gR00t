@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API-SEC/API-Fundamentals/API Fundamentals.md",
+                "file": "GATE/Computer Networks/List of resources.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "API Fundamentals"
+              "title": "List of resources"
             }
           }
         ]
@@ -168,8 +168,8 @@
   },
   "active": "e65198eeae975537",
   "lastOpenFiles": [
-    "GATE/Computer Networks/Concept of layering- OSI and TCP IP Protocol Stacks.md",
     "API-SEC/API-Fundamentals/API Fundamentals.md",
+    "GATE/Computer Networks/List of resources.md",
     "Untitled 2.md",
     "API-SEC/API-Fundamentals",
     "API-SEC",
