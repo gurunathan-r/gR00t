@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Computer Networks/Intro to IP addressing.md",
+                "file": "GATE/Computer Networks/Concept of layering- OSI and TCP IP Protocol Stacks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Intro to IP addressing"
+              "title": "Concept of layering- OSI and TCP IP Protocol Stacks"
             }
           }
         ]
@@ -183,7 +183,7 @@
     "Pasted image 20260521001854.png",
     "hextree/ANDROID/PocketHexMap - Zip Slip MITM.md",
     "hextree/ANDROID/Reverse Engineering Android Apps.md",
-    "GATE/Computer Networks/Intro to IP addressing.md",
+    "GATE/Computer Networks/Concept of layering- OSI and TCP IP Protocol Stacks.md",
     "CS_2026_Syllabus.pdf",
     "GATE/Computer Networks",
     "GATE",
