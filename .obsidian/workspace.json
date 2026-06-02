@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Computer Networks/Concept of layering OSI and TCP IP Protocol Stacks.md",
+                "file": "CTF writeup/Saastra CTF 2025.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Concept of layering OSI and TCP IP Protocol Stacks"
+              "title": "Saastra CTF 2025"
             }
           }
         ]
@@ -166,10 +166,12 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "e65198eeae975537",
+  "active": "8c1f14fde64d2907",
   "lastOpenFiles": [
-    "API-SEC/API-Fundamentals/API Fundamentals.md",
+    "CTF writeup/Pasted image 20250108224744.png",
+    "SQL injection/SQL Fundamentals.md",
     "GATE/Computer Networks/Concept of layering OSI and TCP IP Protocol Stacks.md",
+    "API-SEC/API-Fundamentals/API Fundamentals.md",
     "Untitled 2.md",
     "API-SEC/API-Fundamentals",
     "API-SEC",
@@ -202,7 +204,6 @@
     "Android/Android Application Framework.md",
     "create a link.md",
     "webpage/notes/PHP.md",
-    "SQL injection/SQL Fundamentals.md",
     "CTF writeup/Saastra CTF 2025.md",
     "CTF writeup/Pasted image 20250108223407.png",
     "Pasted image 20250108225934.png",
@@ -212,7 +213,6 @@
     "evrdefvsdfv.md",
     "easrhbrgsxgt.md",
     "arhgazfrzagrxdfsz.md",
-    "adfvadfv.md",
-    "test.md"
+    "adfvadfv.md"
   ]
 }
