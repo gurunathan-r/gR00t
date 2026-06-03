@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF writeup/Saastra CTF 2025.md",
+                "file": "hextree/ANDROID/Intent Attack Surface.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Saastra CTF 2025"
+              "title": "Intent Attack Surface"
             }
           }
         ]
@@ -166,8 +166,9 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "8c1f14fde64d2907",
+  "active": "e65198eeae975537",
   "lastOpenFiles": [
+    "CTF writeup/Saastra CTF 2025.md",
     "CTF writeup/Pasted image 20250108224744.png",
     "SQL injection/SQL Fundamentals.md",
     "GATE/Computer Networks/Concept of layering OSI and TCP IP Protocol Stacks.md",
@@ -204,10 +205,8 @@
     "Android/Android Application Framework.md",
     "create a link.md",
     "webpage/notes/PHP.md",
-    "CTF writeup/Saastra CTF 2025.md",
     "CTF writeup/Pasted image 20250108223407.png",
     "Pasted image 20250108225934.png",
-    "Pasted image 20250108225701.png",
     "svdfvsdfv.md",
     "samplk.md",
     "evrdefvsdfv.md",
