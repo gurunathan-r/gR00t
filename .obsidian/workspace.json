@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hextree/ANDROID/Intent Attack Surface.md",
+                "file": "API-SEC/API testing/API TESTING.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Intent Attack Surface"
+              "title": "API TESTING"
             }
           }
         ]
@@ -168,6 +168,9 @@
   },
   "active": "e65198eeae975537",
   "lastOpenFiles": [
+    "hextree/ANDROID/Intent Attack Surface.md",
+    "API-SEC/API testing/API TESTING.md",
+    "API-SEC/API testing",
     "CTF writeup/Saastra CTF 2025.md",
     "CTF writeup/Pasted image 20250108224744.png",
     "SQL injection/SQL Fundamentals.md",
@@ -176,7 +179,6 @@
     "Untitled 2.md",
     "API-SEC/API-Fundamentals",
     "API-SEC",
-    "hextree/ANDROID/Intent Attack Surface.md",
     "BreachLabs/GHOST.md",
     "Untitled 1.md",
     "Untitled",
@@ -201,7 +203,6 @@
     "3-rd Year/Wireless Networks/Lesson - 2.md",
     "3-rd Year/Untitled.md",
     "3-rd Year/Wireless Networks",
-    "3-rd Year",
     "Android/Android Application Framework.md",
     "create a link.md",
     "webpage/notes/PHP.md",
