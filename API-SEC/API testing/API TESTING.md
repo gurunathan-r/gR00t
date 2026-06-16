@@ -9,4 +9,5 @@
 
 # Active reccon
 
+- Nmap  - (-sC -sV , -p-)
 - 
