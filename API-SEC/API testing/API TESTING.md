@@ -10,5 +10,5 @@
 # Active reccon
 
 - Nmap  - (-sC -sV , -p-)
-- amass
+- amass - enum -active -d
 - 
