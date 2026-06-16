@@ -2,3 +2,5 @@
 
 # Passive reccon
 
+- Google Dorking
+- 
