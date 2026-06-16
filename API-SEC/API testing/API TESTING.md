@@ -5,3 +5,4 @@
 - Google Dorking
 - Github - swagger.json
 - shodan
+- wayback
