@@ -11,5 +11,5 @@
 
 - Nmap  - (-sC -sV , -p-)
 - amass - enum -active -d
-- gobuster
+- gobuster usinng a wordlist ( --wildcard -b 200)
 - 
