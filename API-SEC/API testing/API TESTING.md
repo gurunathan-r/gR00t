@@ -36,3 +36,4 @@ editor.swagger.io
 |\||“blue” \| “green” \| “red”|Double bars represent different possible values that can be used.|
 
 
+https://www.youtube.com/watch?v=6oWRaUCJAg8&t=29s
