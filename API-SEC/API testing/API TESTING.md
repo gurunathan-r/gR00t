@@ -16,4 +16,6 @@
 
 # Reverse Engineering an API
 
-mitm
+mitmproxy and analyse every interaction and then create a swagger yml file
+
+sudo mitmproxy2swagger -i ~/Downloads/flows -o spec.yml -p
