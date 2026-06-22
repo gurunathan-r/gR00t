@@ -18,4 +18,11 @@
 
 mitmproxy and analyse every interaction and then create a swagger yml file
 
-sudo mitmproxy2swagger -i ~/Downloads/flows -o spec.yml -p
+sudo mitmproxy2swagger -i ~/Downloads/flows -o spec.yml -p http://crapi.apisec.ai -f flow
+ and remove the ignore for api endpoints
+ 
+ sudo mitmproxy2swagger -i ~/Downloads/flows -o spec.yml -p http://crapi.apisec.ai -f flow --examples
+
+editor.swagger.io
+
+
